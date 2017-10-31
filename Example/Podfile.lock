@@ -1,0 +1,16 @@
+PODS:
+  - WJSafeData (0.1.0)
+
+DEPENDENCIES:
+  - WJSafeData (from `../`)
+
+EXTERNAL SOURCES:
+  WJSafeData:
+    :path: ../
+
+SPEC CHECKSUMS:
+  WJSafeData: a54180ade86d337365b1eba7c9820fdf14c23b31
+
+PODFILE CHECKSUM: 58aee3a018cbb8901286ead1ae151ef7cc5ab1ee
+
+COCOAPODS: 1.2.1

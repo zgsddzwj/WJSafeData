@@ -1,0 +1,6 @@
+framework module WJSafeData {
+  umbrella header "WJSafeData-umbrella.h"
+
+  export *
+  module * { export * }
+}

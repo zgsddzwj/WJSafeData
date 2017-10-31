@@ -1,0 +1,6 @@
+framework module Pods_WJSafeData_Example {
+  umbrella header "Pods-WJSafeData_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B694E053CA7B36CDF4107AD5D42C504 /* WJSafeData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B14EDE8D649FBB551C9DBD138EEFC6 /* WJSafeData-dummy.m */; };
+		2C98332B19CED18CD90F78E305AD6C6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2F77DD0B1FA87A5500D64885 /* NSDictionary+RuntimeSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77DD011FA87A5300D64885 /* NSDictionary+RuntimeSafe.h */; };
+		2F77DD0C1FA87A5500D64885 /* NSArray+RuntimeSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77DD021FA87A5400D64885 /* NSArray+RuntimeSafe.h */; };
+		2F77DD0D1FA87A5500D64885 /* NSMutableArray+RuntimeSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77DD031FA87A5400D64885 /* NSMutableArray+RuntimeSafe.m */; };
+		2F77DD0E1FA87A5500D64885 /* NSMutableDictionary+RuntimeSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77DD041FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.m */; };
+		2F77DD0F1FA87A5500D64885 /* NSMutableArray+RuntimeSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77DD051FA87A5400D64885 /* NSMutableArray+RuntimeSafe.h */; };
+		2F77DD101FA87A5500D64885 /* NSObject+SafeChange.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77DD061FA87A5400D64885 /* NSObject+SafeChange.h */; };
+		2F77DD111FA87A5500D64885 /* NSMutableDictionary+RuntimeSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F77DD071FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.h */; };
+		2F77DD121FA87A5500D64885 /* NSObject+SafeChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77DD081FA87A5400D64885 /* NSObject+SafeChange.m */; };
+		2F77DD131FA87A5500D64885 /* NSDictionary+RuntimeSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77DD091FA87A5400D64885 /* NSDictionary+RuntimeSafe.m */; };
+		2F77DD141FA87A5500D64885 /* NSArray+RuntimeSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F77DD0A1FA87A5400D64885 /* NSArray+RuntimeSafe.m */; };
+		A6797EB5708A413A4CA8556C6B16EC80 /* Pods-WJSafeData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B11A31BD0FF0C75A96FE336F6DDEBF1 /* Pods-WJSafeData_Example-dummy.m */; };
+		D0824646660B1B17DCC9228C1B333532 /* Pods-WJSafeData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6121944140BBB522BE473BADEA98B73F /* Pods-WJSafeData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B006BC399E323D00CC5D1B84C58792 /* WJSafeData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B664D4AC67F31F538AEAD6AC9E2BB423 /* WJSafeData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F217153AC043EA3EA4825CA7041B7D27 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F36A5245F0A754214ACE0DECE950CD37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F676F0846308602F7A83BABF57C2B475 /* Pods-WJSafeData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B605DE4D3CF2C0A1F82710C6561DF104 /* Pods-WJSafeData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD73E44EDD72F5728DB575A850779F73 /* Pods-WJSafeData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EB177A11EDD55EEC67FF783113700E2 /* Pods-WJSafeData_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45FCD8C2D85C804C1E24B857E63DBF51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1554F3DB7FE83A4F84EEBF55CF04A183;
+			remoteInfo = WJSafeData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051D8D00F9EB48964EAFB90ECB017CBF /* Pods-WJSafeData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJSafeData_Tests.modulemap"; sourceTree = "<group>"; };
+		06A25DA97F3A33BA3347C908BE517811 /* WJSafeData-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJSafeData-prefix.pch"; sourceTree = "<group>"; };
+		18F2A2BC40A31E1D4F0AE5D77DB6396D /* Pods-WJSafeData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJSafeData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1EB177A11EDD55EEC67FF783113700E2 /* Pods-WJSafeData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJSafeData_Tests-dummy.m"; sourceTree = "<group>"; };
+		2A06450F104B2BA66AF4E6A8E1C1AE9C /* WJSafeData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = WJSafeData.modulemap; sourceTree = "<group>"; };
+		2CE7B5B78DA7D89DCB8403749B003AEF /* WJSafeData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WJSafeData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F662A86363B35E754E1A9EBFBA9A7D4 /* Pods-WJSafeData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJSafeData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F77DD011FA87A5300D64885 /* NSDictionary+RuntimeSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+RuntimeSafe.h"; path = "WJSafeData/NSDictionary+RuntimeSafe.h"; sourceTree = "<group>"; };
+		2F77DD021FA87A5400D64885 /* NSArray+RuntimeSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+RuntimeSafe.h"; path = "WJSafeData/NSArray+RuntimeSafe.h"; sourceTree = "<group>"; };
+		2F77DD031FA87A5400D64885 /* NSMutableArray+RuntimeSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+RuntimeSafe.m"; path = "WJSafeData/NSMutableArray+RuntimeSafe.m"; sourceTree = "<group>"; };
+		2F77DD041FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+RuntimeSafe.m"; path = "WJSafeData/NSMutableDictionary+RuntimeSafe.m"; sourceTree = "<group>"; };
+		2F77DD051FA87A5400D64885 /* NSMutableArray+RuntimeSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+RuntimeSafe.h"; path = "WJSafeData/NSMutableArray+RuntimeSafe.h"; sourceTree = "<group>"; };
+		2F77DD061FA87A5400D64885 /* NSObject+SafeChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SafeChange.h"; path = "WJSafeData/NSObject+SafeChange.h"; sourceTree = "<group>"; };
+		2F77DD071FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+RuntimeSafe.h"; path = "WJSafeData/NSMutableDictionary+RuntimeSafe.h"; sourceTree = "<group>"; };
+		2F77DD081FA87A5400D64885 /* NSObject+SafeChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SafeChange.m"; path = "WJSafeData/NSObject+SafeChange.m"; sourceTree = "<group>"; };
+		2F77DD091FA87A5400D64885 /* NSDictionary+RuntimeSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+RuntimeSafe.m"; path = "WJSafeData/NSDictionary+RuntimeSafe.m"; sourceTree = "<group>"; };
+		2F77DD0A1FA87A5400D64885 /* NSArray+RuntimeSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+RuntimeSafe.m"; path = "WJSafeData/NSArray+RuntimeSafe.m"; sourceTree = "<group>"; };
+		30B14EDE8D649FBB551C9DBD138EEFC6 /* WJSafeData-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJSafeData-dummy.m"; sourceTree = "<group>"; };
+		3B11A31BD0FF0C75A96FE336F6DDEBF1 /* Pods-WJSafeData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJSafeData_Example-dummy.m"; sourceTree = "<group>"; };
+		45CD52779471B794A471939527CDE80E /* Pods-WJSafeData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJSafeData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4849C456E95D92CB7CD4E5A7452008D3 /* Pods-WJSafeData_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJSafeData_Example-frameworks.sh"; sourceTree = "<group>"; };
+		56A6E155F578ECDB220D2453B8521259 /* Pods-WJSafeData_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-WJSafeData_Example.modulemap"; sourceTree = "<group>"; };
+		5A4D29ED101772D42F6B18E88BF76448 /* Pods-WJSafeData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJSafeData_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6121944140BBB522BE473BADEA98B73F /* Pods-WJSafeData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJSafeData_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63848F808EE4337FABB0F9F6D56F7C52 /* Pods-WJSafeData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJSafeData_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7AEF7BD9C9A23497752E2DC9F3B5E102 /* Pods-WJSafeData_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJSafeData_Example-resources.sh"; sourceTree = "<group>"; };
+		8A7C169ADC3A8A2513F6E2660E6787CA /* Pods_WJSafeData_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSafeData_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1D590896AD2E757BE370C6F4C5382B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B140616183F23991502B060154CFC311 /* Pods-WJSafeData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJSafeData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B605DE4D3CF2C0A1F82710C6561DF104 /* Pods-WJSafeData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WJSafeData_Example-umbrella.h"; sourceTree = "<group>"; };
+		B664D4AC67F31F538AEAD6AC9E2BB423 /* WJSafeData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJSafeData-umbrella.h"; sourceTree = "<group>"; };
+		C29EEE389DA3AA9245339B80AFCDB69D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C35DC8167148CC9696116FE0D6FB46C4 /* Pods-WJSafeData_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJSafeData_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C5D9B5F743477CEBBCC8D75E45DA07C4 /* Pods-WJSafeData_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJSafeData_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CE835148EB9DBFCFEF463AA724C18481 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D040C4DB68F7F7EB26130C43C2ACE883 /* Pods-WJSafeData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJSafeData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDA34B297C7B3DD4F6CD9DAAE55919DF /* Pods_WJSafeData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WJSafeData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00BE1DDF0879F4EF60856D963D7DC45 /* WJSafeData.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJSafeData.xcconfig; sourceTree = "<group>"; };
+		FB9ADE943775C9E1F1FE04187F8E3F4B /* Pods-WJSafeData_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJSafeData_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A04AF5CC827818C35CDD97BA3C7F248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F217153AC043EA3EA4825CA7041B7D27 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5277035EBE15155258D9FE5D544A6EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C98332B19CED18CD90F78E305AD6C6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F480EE3DBA159F8BD520F8EB04D0D527 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36A5245F0A754214ACE0DECE950CD37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024B83150721F297C67C05E471386D04 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE835148EB9DBFCFEF463AA724C18481 /* Info.plist */,
+				2A06450F104B2BA66AF4E6A8E1C1AE9C /* WJSafeData.modulemap */,
+				F00BE1DDF0879F4EF60856D963D7DC45 /* WJSafeData.xcconfig */,
+				30B14EDE8D649FBB551C9DBD138EEFC6 /* WJSafeData-dummy.m */,
+				06A25DA97F3A33BA3347C908BE517811 /* WJSafeData-prefix.pch */,
+				B664D4AC67F31F538AEAD6AC9E2BB423 /* WJSafeData-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WJSafeData";
+			sourceTree = "<group>";
+		};
+		02A6B2F7B8C0037DFA625371BF0A8144 /* Pods-WJSafeData_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C29EEE389DA3AA9245339B80AFCDB69D /* Info.plist */,
+				051D8D00F9EB48964EAFB90ECB017CBF /* Pods-WJSafeData_Tests.modulemap */,
+				45CD52779471B794A471939527CDE80E /* Pods-WJSafeData_Tests-acknowledgements.markdown */,
+				18F2A2BC40A31E1D4F0AE5D77DB6396D /* Pods-WJSafeData_Tests-acknowledgements.plist */,
+				1EB177A11EDD55EEC67FF783113700E2 /* Pods-WJSafeData_Tests-dummy.m */,
+				C5D9B5F743477CEBBCC8D75E45DA07C4 /* Pods-WJSafeData_Tests-frameworks.sh */,
+				FB9ADE943775C9E1F1FE04187F8E3F4B /* Pods-WJSafeData_Tests-resources.sh */,
+				6121944140BBB522BE473BADEA98B73F /* Pods-WJSafeData_Tests-umbrella.h */,
+				B140616183F23991502B060154CFC311 /* Pods-WJSafeData_Tests.debug.xcconfig */,
+				63848F808EE4337FABB0F9F6D56F7C52 /* Pods-WJSafeData_Tests.release.xcconfig */,
+			);
+			name = "Pods-WJSafeData_Tests";
+			path = "Target Support Files/Pods-WJSafeData_Tests";
+			sourceTree = "<group>";
+		};
+		14854E9FCAA068D89EA699181CC81A03 /* Pods-WJSafeData_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A1D590896AD2E757BE370C6F4C5382B9 /* Info.plist */,
+				56A6E155F578ECDB220D2453B8521259 /* Pods-WJSafeData_Example.modulemap */,
+				D040C4DB68F7F7EB26130C43C2ACE883 /* Pods-WJSafeData_Example-acknowledgements.markdown */,
+				2F662A86363B35E754E1A9EBFBA9A7D4 /* Pods-WJSafeData_Example-acknowledgements.plist */,
+				3B11A31BD0FF0C75A96FE336F6DDEBF1 /* Pods-WJSafeData_Example-dummy.m */,
+				4849C456E95D92CB7CD4E5A7452008D3 /* Pods-WJSafeData_Example-frameworks.sh */,
+				7AEF7BD9C9A23497752E2DC9F3B5E102 /* Pods-WJSafeData_Example-resources.sh */,
+				B605DE4D3CF2C0A1F82710C6561DF104 /* Pods-WJSafeData_Example-umbrella.h */,
+				C35DC8167148CC9696116FE0D6FB46C4 /* Pods-WJSafeData_Example.debug.xcconfig */,
+				5A4D29ED101772D42F6B18E88BF76448 /* Pods-WJSafeData_Example.release.xcconfig */,
+			);
+			name = "Pods-WJSafeData_Example";
+			path = "Target Support Files/Pods-WJSafeData_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B82EF633063ADC207A14393BFAE82F5F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				E9BC30F07D641C711965D6998B80FA52 /* Products */,
+				DF82A6055106C69CEDBBCEBD87673E72 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B82EF633063ADC207A14393BFAE82F5F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB6E2F1708A462A68113901C4B1F4E28 /* WJSafeData */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DF82A6055106C69CEDBBCEBD87673E72 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14854E9FCAA068D89EA699181CC81A03 /* Pods-WJSafeData_Example */,
+				02A6B2F7B8C0037DFA625371BF0A8144 /* Pods-WJSafeData_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E9BC30F07D641C711965D6998B80FA52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDA34B297C7B3DD4F6CD9DAAE55919DF /* Pods_WJSafeData_Example.framework */,
+				8A7C169ADC3A8A2513F6E2660E6787CA /* Pods_WJSafeData_Tests.framework */,
+				2CE7B5B78DA7D89DCB8403749B003AEF /* WJSafeData.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB6E2F1708A462A68113901C4B1F4E28 /* WJSafeData */ = {
+			isa = PBXGroup;
+			children = (
+				2F77DD021FA87A5400D64885 /* NSArray+RuntimeSafe.h */,
+				2F77DD0A1FA87A5400D64885 /* NSArray+RuntimeSafe.m */,
+				2F77DD011FA87A5300D64885 /* NSDictionary+RuntimeSafe.h */,
+				2F77DD091FA87A5400D64885 /* NSDictionary+RuntimeSafe.m */,
+				2F77DD051FA87A5400D64885 /* NSMutableArray+RuntimeSafe.h */,
+				2F77DD031FA87A5400D64885 /* NSMutableArray+RuntimeSafe.m */,
+				2F77DD071FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.h */,
+				2F77DD041FA87A5400D64885 /* NSMutableDictionary+RuntimeSafe.m */,
+				2F77DD061FA87A5400D64885 /* NSObject+SafeChange.h */,
+				2F77DD081FA87A5400D64885 /* NSObject+SafeChange.m */,
+				024B83150721F297C67C05E471386D04 /* Support Files */,
+			);
+			name = WJSafeData;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F2C3CD96166369FE60D4F03E1B71F3C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9B006BC399E323D00CC5D1B84C58792 /* WJSafeData-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45383BCA6E0C1A11A9E4291BDFE87201 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F676F0846308602F7A83BABF57C2B475 /* Pods-WJSafeData_Example-umbrella.h in Headers */,
+				2F77DD101FA87A5500D64885 /* NSObject+SafeChange.h in Headers */,
+				2F77DD111FA87A5500D64885 /* NSMutableDictionary+RuntimeSafe.h in Headers */,
+				2F77DD0B1FA87A5500D64885 /* NSDictionary+RuntimeSafe.h in Headers */,
+				2F77DD0F1FA87A5500D64885 /* NSMutableArray+RuntimeSafe.h in Headers */,
+				2F77DD0C1FA87A5500D64885 /* NSArray+RuntimeSafe.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		873584277EC22071E7C05769E4D27FB3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0824646660B1B17DCC9228C1B333532 /* Pods-WJSafeData_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1554F3DB7FE83A4F84EEBF55CF04A183 /* WJSafeData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C3E4103A18F60E85A80D6D79425654C /* Build configuration list for PBXNativeTarget "WJSafeData" */;
+			buildPhases = (
+				C63F79BC1F38A33C2DF375050D1F307F /* Sources */,
+				A5277035EBE15155258D9FE5D544A6EF /* Frameworks */,
+				3F2C3CD96166369FE60D4F03E1B71F3C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJSafeData;
+			productName = WJSafeData;
+			productReference = 2CE7B5B78DA7D89DCB8403749B003AEF /* WJSafeData.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		414F07DA2AE228737D69E895A8B30FA0 /* Pods-WJSafeData_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07DB1C44C7C2031AF3025A124E97263 /* Build configuration list for PBXNativeTarget "Pods-WJSafeData_Example" */;
+			buildPhases = (
+				65009E6125E7036E0779D0556684793E /* Sources */,
+				3A04AF5CC827818C35CDD97BA3C7F248 /* Frameworks */,
+				45383BCA6E0C1A11A9E4291BDFE87201 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F3AF9777826C2BAD298D72727564CA7 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJSafeData_Example";
+			productName = "Pods-WJSafeData_Example";
+			productReference = DDA34B297C7B3DD4F6CD9DAAE55919DF /* Pods_WJSafeData_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9ABF1BEFFB60A65C6D3AE5F45C9D9CF4 /* Pods-WJSafeData_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29891717BABFABFCA6B19E91ED2C50AF /* Build configuration list for PBXNativeTarget "Pods-WJSafeData_Tests" */;
+			buildPhases = (
+				832253BB4A3C344C07B9BF7E4ED4C2A4 /* Sources */,
+				F480EE3DBA159F8BD520F8EB04D0D527 /* Frameworks */,
+				873584277EC22071E7C05769E4D27FB3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-WJSafeData_Tests";
+			productName = "Pods-WJSafeData_Tests";
+			productReference = 8A7C169ADC3A8A2513F6E2660E6787CA /* Pods_WJSafeData_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E9BC30F07D641C711965D6998B80FA52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				414F07DA2AE228737D69E895A8B30FA0 /* Pods-WJSafeData_Example */,
+				9ABF1BEFFB60A65C6D3AE5F45C9D9CF4 /* Pods-WJSafeData_Tests */,
+				1554F3DB7FE83A4F84EEBF55CF04A183 /* WJSafeData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65009E6125E7036E0779D0556684793E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F77DD121FA87A5500D64885 /* NSObject+SafeChange.m in Sources */,
+				A6797EB5708A413A4CA8556C6B16EC80 /* Pods-WJSafeData_Example-dummy.m in Sources */,
+				2F77DD141FA87A5500D64885 /* NSArray+RuntimeSafe.m in Sources */,
+				2F77DD0D1FA87A5500D64885 /* NSMutableArray+RuntimeSafe.m in Sources */,
+				2F77DD131FA87A5500D64885 /* NSDictionary+RuntimeSafe.m in Sources */,
+				2F77DD0E1FA87A5500D64885 /* NSMutableDictionary+RuntimeSafe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		832253BB4A3C344C07B9BF7E4ED4C2A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD73E44EDD72F5728DB575A850779F73 /* Pods-WJSafeData_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C63F79BC1F38A33C2DF375050D1F307F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B694E053CA7B36CDF4107AD5D42C504 /* WJSafeData-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F3AF9777826C2BAD298D72727564CA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJSafeData;
+			target = 1554F3DB7FE83A4F84EEBF55CF04A183 /* WJSafeData */;
+			targetProxy = 45FCD8C2D85C804C1E24B857E63DBF51 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0822429F9FF93593AD12FA1FE9B56D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4D29ED101772D42F6B18E88BF76448 /* Pods-WJSafeData_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJSafeData_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJSafeData_Example/Pods-WJSafeData_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJSafeData_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		214AD1DB8F70CCEAD6EE3B3B7EF25CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B140616183F23991502B060154CFC311 /* Pods-WJSafeData_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJSafeData_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJSafeData_Tests/Pods-WJSafeData_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJSafeData_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33B230B197F5A630EA2B5305E24C1091 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63848F808EE4337FABB0F9F6D56F7C52 /* Pods-WJSafeData_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJSafeData_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJSafeData_Tests/Pods-WJSafeData_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJSafeData_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B5B607AF2FA60F512CBDBBE9612685D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35DC8167148CC9696116FE0D6FB46C4 /* Pods-WJSafeData_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-WJSafeData_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WJSafeData_Example/Pods-WJSafeData_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_WJSafeData_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86A10C53C80F33925BC8E0C51F1E6FFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00BE1DDF0879F4EF60856D963D7DC45 /* WJSafeData.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJSafeData/WJSafeData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJSafeData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJSafeData/WJSafeData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WJSafeData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A6EB8C75BEA497CFC3C9446028BEB2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F00BE1DDF0879F4EF60856D963D7DC45 /* WJSafeData.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJSafeData/WJSafeData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WJSafeData/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WJSafeData/WJSafeData.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WJSafeData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29891717BABFABFCA6B19E91ED2C50AF /* Build configuration list for PBXNativeTarget "Pods-WJSafeData_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				214AD1DB8F70CCEAD6EE3B3B7EF25CBA /* Debug */,
+				33B230B197F5A630EA2B5305E24C1091 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7B1487F48E36BAD2CEF0AFCA4908B67 /* Debug */,
+				157AF0CD5E5AB2A2E74D3B8ECD865185 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C3E4103A18F60E85A80D6D79425654C /* Build configuration list for PBXNativeTarget "WJSafeData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86A10C53C80F33925BC8E0C51F1E6FFB /* Debug */,
+				A6EB8C75BEA497CFC3C9446028BEB2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07DB1C44C7C2031AF3025A124E97263 /* Build configuration list for PBXNativeTarget "Pods-WJSafeData_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5B607AF2FA60F512CBDBBE9612685D /* Debug */,
+				0822429F9FF93593AD12FA1FE9B56D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WJSafeData'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WJSafeData.'
+  s.summary          = '利用Runtime更改NSArray、NSDictionary，防止操作过程中因为越界引起的问题，及一些便捷提取方式。GitHub地址:https://github.com/zgsddzwj/WJSafeData.git'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

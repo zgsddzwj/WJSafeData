@@ -1,0 +1,22 @@
+{
+  "name": "WJSafeData",
+  "version": "0.1.0",
+  "summary": "A short description of WJSafeData.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/adwardgc/WJSafeData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "adwardgc": "wangjian5@xin.com"
+  },
+  "source": {
+    "git": "https://github.com/adwardgc/WJSafeData.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WJSafeData/Classes/**/*"
+}
