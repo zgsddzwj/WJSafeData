@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WJSafeData_Example' do
+  pod 'WJSafeData', :path => '../'
+
+  target 'WJSafeData_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
