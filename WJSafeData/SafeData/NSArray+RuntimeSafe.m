@@ -18,6 +18,8 @@
 
         //如果当前数组只有一个元素，相应的是__NSSingleObjectArrayI
         [self SwizzlingMethod:@"objectAtIndex:" systemClassString:@"__NSSingleObjectArrayI" toSafeMethodString:@"wj_singleObjectAtIndex:" targetClassString:@"NSArray"];
+        
+        [self SwizzlingMethod:@"objectAtIndexedSubscript:" systemClassString:@"__NSArrayI" toSafeMethodString:@"wj_objectAtIndexedSubscript:" targetClassString:@"NSArray"];
 
         [self SwizzlingMethod:@"initWithObjects:count:" systemClassString:@"__NSPlaceholderArray" toSafeMethodString:@"initWithObjects_wj:count:" targetClassString:@"NSArray"];
         
@@ -42,6 +44,14 @@
         return nil;
     }
     return [self wj_singleObjectAtIndex:index];
+}
+
+- (id)wj_objectAtIndexedSubscript:(NSUInteger)index{
+    //判断数组是否越界
+    if (index >= [self count]) {
+        return nil;
+    }
+    return [self wj_objectAtIndexedSubscript:index];
 }
 
 - (NSArray *)wj_arrayByAddingObject:(id)anObject {

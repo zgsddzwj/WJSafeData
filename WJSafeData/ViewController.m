@@ -21,6 +21,7 @@
     // Do any additional setup after loading the view, typically from a nib.
 
     NSArray *arr = @[@"1"];
+    NSLog(@"%@",arr[5]);
     NSLog(@"%@",[arr objectAtIndex:5]);
     arr = [arr arrayByAddingObjectsFromArray:@[]];
 
